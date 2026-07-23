@@ -1,49 +1,53 @@
 # Pricing Components
 
-A professional project for Pricing Components.
+A professional Static Website built with HTML / CSS / JS.
 
 ## Screenshot
 
-![Placeholder](https://via.placeholder.com/800x400.png?text=Pricing-Components)
+![Pricing Components](https://via.placeholder.com/800x400.png?text=Pricing%20Components)
 
 ## Features
 
-- Feature 1
-- Feature 2
-- Feature 3
+- Responsive Design
+- Modern UI/UX
+- Clean Code Architecture
+- Semantic HTML5
+- Vanilla CSS Styling
 
 ## Tech Stack
 
-- TBD
+- **Core**: HTML / CSS / JS
+
 
 ## Folder Structure
 
-`
-+-- src/
-+-- docs/
-+-- .gitignore
-+-- README.md
-+-- LICENSE
-`
+```
+├── src/            # Source code
+├── docs/           # Project documentation (PRD, BRD, SRS)
+├── public/         # Static assets
+├── .gitignore      # Git ignored files
+├── README.md       # Project overview
+```
 
 ## Installation
 
-`ash
-git clone https://github.com/denislapianso/Denis-Lapianso_Pricing-Components.git
+```bash
+git clone https://github.com/nisdenn/Denis-Lapianso_Pricing-Components.git
 cd Denis-Lapianso_Pricing-Components
-`
+```
 
 ## Usage
 
-`ash
-# Add usage instructions here
-`
+```bash
+Open index.html in your browser
+```
 
-## Roadmap
+## Documentation
 
-- [ ] Add new features
-- [ ] Improve documentation
-- [ ] Release v1.0.0
+- [Product Requirements Document (PRD)](./docs/PRD.md)
+- [Business Requirements Document (BRD)](./docs/BRD.md)
+- [Software Requirements Specification (SRS)](./docs/SRS.md)
+- [Project Structure](./docs/PROJECT-STRUCTURE.md)
 
 ## Author
 
