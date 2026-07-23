@@ -1,0 +1,9 @@
+.env
+.env.*
+.agent
+.vscode
+.idea
+tmp
+temp
+*.log
+

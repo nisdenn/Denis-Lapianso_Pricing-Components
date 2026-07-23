@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Components - Noceur</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="pricing-container">
+        <div class="pricing-header">
+            <h2>Simple, transparent pricing</h2>
+            <p>No surprise fees. Choose the plan that best fits your needs.</p>
+            
+            <div class="toggle-container">
+                <span class="toggle-label" id="label-monthly">Monthly</span>
+                <label class="switch">
+                    <input type="checkbox" id="billing-toggle">
+                    <span class="slider round"></span>
+                </label>
+                <span class="toggle-label" id="label-yearly">Yearly <span class="badge">Save 20%</span></span>
+            </div>
+        </div>
+
+        <div class="pricing-grid">
+            <!-- Basic Plan -->
+            <div class="pricing-card">
+                <div class="card-header">
+                    <h3>Basic</h3>
+                    <p>Perfect for individuals and small projects.</p>
+                </div>
+                <div class="card-price">
+                    <span class="currency">$</span>
+                    <span class="amount" data-monthly="15" data-yearly="12">15</span>
+                    <span class="period">/mo</span>
+                </div>
+                <button class="btn btn-outline">Get Started</button>
+                <div class="card-features">
+                    <div class="feature"><i class="ri-check-line"></i> Up to 3 projects</div>
+                    <div class="feature"><i class="ri-check-line"></i> Basic analytics</div>
+                    <div class="feature"><i class="ri-check-line"></i> 24-hour support response time</div>
+                    <div class="feature disabled"><i class="ri-close-line"></i> Custom domains</div>
+                    <div class="feature disabled"><i class="ri-close-line"></i> Team collaboration</div>
+                </div>
+            </div>
+
+            <!-- Pro Plan -->
+            <div class="pricing-card popular">
+                <div class="popular-badge">Most Popular</div>
+                <div class="card-header">
+                    <h3>Professional</h3>
+                    <p>For growing teams and professional developers.</p>
+                </div>
+                <div class="card-price">
+                    <span class="currency">$</span>
+                    <span class="amount" data-monthly="49" data-yearly="39">49</span>
+                    <span class="period">/mo</span>
+                </div>
+                <button class="btn btn-primary">Start Free Trial</button>
+                <div class="card-features">
+                    <div class="feature"><i class="ri-check-line"></i> Unlimited projects</div>
+                    <div class="feature"><i class="ri-check-line"></i> Advanced analytics dashboard</div>
+                    <div class="feature"><i class="ri-check-line"></i> 1-hour support response time</div>
+                    <div class="feature"><i class="ri-check-line"></i> Custom domains</div>
+                    <div class="feature disabled"><i class="ri-close-line"></i> Team collaboration</div>
+                </div>
+            </div>
+
+            <!-- Enterprise Plan -->
+            <div class="pricing-card">
+                <div class="card-header">
+                    <h3>Enterprise</h3>
+                    <p>Advanced features for large scale organizations.</p>
+                </div>
+                <div class="card-price">
+                    <span class="currency">$</span>
+                    <span class="amount" data-monthly="99" data-yearly="79">99</span>
+                    <span class="period">/mo</span>
+                </div>
+                <button class="btn btn-outline">Contact Sales</button>
+                <div class="card-features">
+                    <div class="feature"><i class="ri-check-line"></i> Everything in Pro</div>
+                    <div class="feature"><i class="ri-check-line"></i> Custom reporting</div>
+                    <div class="feature"><i class="ri-check-line"></i> Dedicated account manager</div>
+                    <div class="feature"><i class="ri-check-line"></i> SSO & Advanced Security</div>
+                    <div class="feature"><i class="ri-check-line"></i> Team collaboration (Unlimited)</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
