@@ -2,9 +2,6 @@
 
 A professional Static Website built with HTML / CSS / JS.
 
-## Screenshot
-
-![Pricing Components](https://via.placeholder.com/800x400.png?text=Pricing%20Components)
 
 ## Features
 
